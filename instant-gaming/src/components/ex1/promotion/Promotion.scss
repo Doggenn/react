@@ -1,0 +1,33 @@
+.box-promo{
+    position: relative;
+    max-width: 100%;
+    .img-promo{
+        width: 100%;
+        height: auto;
+    }
+    div{
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        background: none;
+        h2{
+            background: none;
+            font-size: 40px;
+        }
+        .promo-marg-pad{
+            margin-top: 100px;
+            width: 200px;
+            padding: 15px;
+            .bg-invisible{
+                background: none;
+            }
+            .discount{
+                background-color: orange;
+                margin-right: 20px;
+                width: 50px; 
+                border-radius: 5px 20px 10px 5px;
+            }
+        }
+    }
+    
+}

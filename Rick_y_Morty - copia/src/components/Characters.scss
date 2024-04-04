@@ -1,0 +1,47 @@
+*{
+    background-color: black;
+    color: white
+}
+h2{
+    box-shadow: blue;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.col-3{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 5px;
+    
+}
+.imagen{
+    border-radius: 20px;
+    margin: 10px;
+    border: 2px solid white;
+    box-shadow: brown;
+}
+nav{
+    display: flex;
+    margin: 10px;
+    div{
+        max-width: 50%;
+        select{
+            height: 36px;
+            border: 1px solid white;
+            border-radius: 20px;
+            text-align: center;
+            :hover{
+                border-radius: 20px;
+                text-align: center;
+            }
+        }
+        input{
+            padding: 5px;
+            border: 1px solid white;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+    }
+}

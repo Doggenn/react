@@ -1,0 +1,14 @@
+.menu {
+    display: flex;
+    justify-content: center;
+
+    .link {
+        list-style: none;
+        padding: 10px;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
